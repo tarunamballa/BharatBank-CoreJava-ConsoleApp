@@ -1,6 +1,5 @@
 # BharatBank - Core Java Console Banking Application
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Java Version](https://img.shields.io/badge/Java-11%2B-blue.svg)](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
 <!-- Add other badges if applicable, e.g., for build status if you set up CI -->
 
@@ -88,17 +87,12 @@ This project aims to effectively demonstrate a range of core Java concepts:
 The project is organized into the following main Java files:
 
 BharatBank-CoreJava-ConsoleApp/
-├── src/ (or directly in the root if not using package structure for this demo)
+├── src/ 
 │ ├── BharatBank.java # Main application class, handles UI and flow
 │ ├── BankAccount.java # Represents a customer's bank account
 │ ├── Transaction.java # Represents a single financial transaction
 │ └── TransactionType.java # Enum for different types of transactions
-├── .gitignore
 └── README.md
-
-
-
-*(Adjust the `src/` part if you decide to put files directly in the root or use a specific package structure like `com/bharatbank/app`)*
 
 ## Prerequisites
 
